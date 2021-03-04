@@ -29,6 +29,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LauncherActivity">
 
+
         <meta-data
             android:name="asset_statements"
             android:resource="@string/assetStatements" />
@@ -43,17 +44,17 @@
 
             <meta-data
                 android:name="android.support.customtabs.trusted.STATUS_BAR_COLOR"
-                android:resource="@color/colorPrimary" />
+                android:resource="@color/browser_actions_bg_grey" />
 
             <meta-data
                 android:name="android.support.customtabs.trusted.NAVIGATION_BAR_COLOR"
-                android:resource="@color/navigationColor" />
+                android:resource="@color/browser_actions_bg_grey" />
 
             <meta-data android:name="android.support.customtabs.trusted.SPLASH_IMAGE_DRAWABLE"
                 android:resource="@drawable/splash"/>
 
             <meta-data android:name="android.support.customtabs.trusted.SPLASH_SCREEN_BACKGROUND_COLOR"
-                android:resource="@color/backgroundColor"/>
+                android:resource="@color/redbg"/>
 
             <meta-data android:name="android.support.customtabs.trusted.SPLASH_SCREEN_FADE_OUT_DURATION"
                 android:value="@integer/splashScreenFadeOutDuration"/>
